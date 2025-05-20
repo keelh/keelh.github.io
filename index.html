@@ -7,33 +7,65 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
+
+   <!-- Top Title Bar -->
+  <header class="topbar">
+    <img src="Hadron-CRA-ezgif.com-webp-to-jpg-converter.jpg" alt="Logo" class="logo-img" />
+    <div class="logo">Keelan's Maths Notes</div>
+    <nav class="topnav">
+      <a href="#">Home</a>
+    </nav>
+    <button id="menu-toggle" class="hamburger">&#9776;</button>
+  </header>
+
+  <div class="layout">
+
+    <!-- Sidebar Navigation -->
     <aside class="sidebar">
-      <h1>Keelan</h1>
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li class="dropdown">
+            <button class="dropbtn">Projects <span>▼</span></button>
+            <ul class="dropdown-content">
+              <li><a href="https://github.com/">GitHub</a></li>
+              <li><a href="https://gitlab.com/">GitLab</a></li>
+              <li><a href="#">Local Projects</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <button class="dropbtn">Resources <span>▼</span></button>
+            <ul class="dropdown-content">
+              <li><a href="https://developer.mozilla.org/">MDN</a></li>
+              <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+              <li><a href="#">Docs</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Help</a></li>
         </ul>
       </nav>
     </aside>
+
+    <!-- Main Content Area -->
     <main class="content">
-      <section id="about">
-        <h2>About</h2>
-        <p>This is a short bio or intro. You can add more sections as needed.</p>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-        <p>Describe your projects here with links or images.</p>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-      </section>
+      <h1>Welcome to My Site</h1>
+      <p>This is a starting template with an advanced sidebar and topbar.</p>
+      <!-- More sections here -->
     </main>
+
   </div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Keelan Hanrahan</p>
+    <p>
+      <a href="https://github.com/keelh" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/keelanhan/" target="_blank">LinkedIn</a> |
+      <a href="mailto:keelanhanrahan12345@gmail.com">Email</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
