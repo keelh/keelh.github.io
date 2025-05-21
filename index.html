@@ -4,110 +4,105 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="styles.css" />
+  <title>Keelan's Maths Notes</title>
 </head>
 <body>
   <div id="page-container">
     <div id="content-wrap">
+      <!-- Top Title Bar -->
+      <header class="topbar">
+        <img src="Hadron-CRA-ezgif.com-webp-to-jpg-converter.jpg" alt="Logo" class="logo-img" />
+        <div class="logo">Keelan's Maths Notes</div>
+        <nav class="topnav">
+          <a href="#">Home</a>
+        </nav>
+        <button id="menu-toggle" class="hamburger">&#9776;</button>
+      </header>
 
-   <!-- Top Title Bar -->
-  <header class="topbar">
-    <img src="Hadron-CRA-ezgif.com-webp-to-jpg-converter.jpg" alt="Logo" class="logo-img" />
-    <div class="logo">Keelan's Maths Notes</div>
-    <nav class="topnav">
-      <a href="#">Home</a>
-    </nav>
-    <button id="menu-toggle" class="hamburger">&#9776;</button>
-  </header>
+      <div class="layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+          <nav>
+            <ul>
+              <li><a href="#">Dashboard</a></li>
 
-  <div class="layout">
+              <li class="dropdown">
+                <button class="dropbtn">Mathematical Modelling <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="https://gitlab.com/">GitLab</a></li>
+                  <li><a href="#">Local Projects</a></li>
+                </ul>
+              </li>
 
-    <!-- Sidebar Navigation -->
-    <aside class="sidebar">
-      <nav>
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-        
-          <li class="dropdown">
-            <button class="dropbtn">Mathematical Modelling <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://github.com/">GitHub</a></li>
-              <li><a href="https://gitlab.com/">GitLab</a></li>
-              <li><a href="#">Local Projects</a></li>
-            </ul>
-          </li>
-          
-          <li class="dropdown">
-            <button class="dropbtn">Computer Modelling and Numerical Techniques <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://github.com/">GitHub</a></li>
-              <li><a href="https://gitlab.com/">GitLab</a></li>
-              <li><a href="#">Local Projects</a></li>
-            </ul>
-          </li>
-          
-          <li class="dropdown">
-            <button class="dropbtn">Probability and Mathematical Statistics <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://github.com/">GitHub</a></li>
-              <li><a href="https://gitlab.com/">GitLab</a></li>
-              <li><a href="#">Local Projects</a></li>
-            </ul>
-          </li>
-          
-          <li class="dropdown">
-            <button class="dropbtn">Multivariable Calculus <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://github.com/">GitHub</a></li>
-              <li><a href="https://gitlab.com/">GitLab</a></li>
-              <li><a href="#">Local Projects</a></li>
-            </ul>
-          </li>
-          
-          <li class="dropdown">
-            <button class="dropbtn">Introduction to Regression Analysis <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://github.com/">GitHub</a></li>
-              <li><a href="https://gitlab.com/">GitLab</a></li>
-              <li><a href="#">Local Projects</a></li>
-            </ul>
-          </li>
-          
-          <li class="dropdown">
-            <button class="dropbtn">Transforms and Variational Methods  <span>▼</span></button>
-            <ul class="dropdown-content">
-              <li><a href="https://developer.mozilla.org/">MDN</a></li>
-              <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
-              <li><a href="#">Docs</a></li>
-            </ul>
-          </li>
-          
-          <li><a href="#">Help</a></li>
-        </ul>
-      </nav>
-    </aside>
+              <li class="dropdown">
+                <button class="dropbtn">Computer Modelling and Numerical Techniques <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="https://gitlab.com/">GitLab</a></li>
+                  <li><a href="#">Local Projects</a></li>
+                </ul>
+              </li>
 
-    <!-- Main Content Area -->
-    <main class="content">
-      <h1>Keelan's Maths Notes</h1>
-      <p>Welcome to my notes website, which is a work in progress to keep track of all notes and important information from my Mathematical Sciences degree, as well as to also keep up-to-date on my personal projects.</p>
-      <!-- More sections here -->
-    </main>
+              <li class="dropdown">
+                <button class="dropbtn">Probability and Mathematical Statistics <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="https://gitlab.com/">GitLab</a></li>
+                  <li><a href="#">Local Projects</a></li>
+                </ul>
+              </li>
 
-   </div>
-    
+              <li class="dropdown">
+                <button class="dropbtn">Multivariable Calculus <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="https://gitlab.com/">GitLab</a></li>
+                  <li><a href="#">Local Projects</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <button class="dropbtn">Introduction to Regression Analysis <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="https://gitlab.com/">GitLab</a></li>
+                  <li><a href="#">Local Projects</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <button class="dropbtn">Transforms and Variational Methods <span>▼</span></button>
+                <ul class="dropdown-content">
+                  <li><a href="https://developer.mozilla.org/">MDN</a></li>
+                  <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                  <li><a href="#">Docs</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Help</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+          <h1>Keelan's Maths Notes</h1>
+          <p>Welcome to my notes website, which is a work in progress to keep track of all notes and important information from my Mathematical Sciences degree, as well as to also keep up-to-date on my personal projects.</p>
+        </main>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Keelan Hanrahan</p>
+      <p>
+        <a href="https://github.com/keelh" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/keelanhan/" target="_blank">LinkedIn</a> |
+        <a href="mailto:keelanhanrahan12345@gmail.com">Email</a>
+      </p>
+    </footer>
   </div>
-  
-  <!-- Footer -->
-  <footer id="footer">
-  <footer class="footer">
-    <p>© 2025 Keelan Hanrahan</p>
-    <p>
-      <a href="https://github.com/keelh" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/keelanhan/" target="_blank">LinkedIn</a> |
-      <a href="mailto:keelanhanrahan12345@gmail.com">Email</a>
-    </p>
-  </footer>
-  </footer>
 
   <script src="script.js"></script>
 </body>
